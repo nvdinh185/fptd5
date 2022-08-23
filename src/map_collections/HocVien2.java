@@ -6,14 +6,12 @@ public class HocVien2 {
 	private String name;
 
 	public HocVien2() {
-		System.out.println("HOC VIEN KHONG THAM SO");
 	}
 
 	public HocVien2(String id, String name) {
 //		super();
 		this.id = id;
 		this.name = name;
-		System.out.println("HOC VIEN CO THAM SO");
 	}
 
 	@Override
