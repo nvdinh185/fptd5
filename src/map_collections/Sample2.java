@@ -47,6 +47,7 @@ public class Sample2 {
 
 		System.out.println(set3.floor(11));
 		System.out.println(set3.ceiling(11));
+		set3.forEach(t -> System.out.println(t));
 
 		Map<Integer, HocVien2> map = new HashMap<Integer, HocVien2>();
 		map.put(1, new HocVien2("1", "a"));

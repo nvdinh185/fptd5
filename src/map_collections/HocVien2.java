@@ -9,12 +9,10 @@ public class HocVien2 {
 	}
 
 	public HocVien2(String id, String name) {
-//		super();
 		this.id = id;
 		this.name = name;
 	}
 
-	@Override
 	public String toString() {
 		return "HocVien [id=" + id + ", name=" + name + "]";
 	}
